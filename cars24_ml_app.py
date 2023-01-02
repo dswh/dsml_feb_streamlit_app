@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import datetime
-import sklearn
+
 
 import pickle
 
@@ -10,6 +10,8 @@ cars_df = pd.read_csv("./cars24-car-price.csv")
 st.write("""
 # Cars24 Used Car Price Prediction
 """)
+
+
 
 
 encode_dict = {
